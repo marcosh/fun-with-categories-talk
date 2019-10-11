@@ -403,7 +403,7 @@ Map out of it with a functor
 
 <!-- .slide: data-transition="fade-in fade-out" -->
 
-Select a path
+Choose a path
 
 <object data="img/graph/path.svg" type="image/svg+xml"></object>
 
