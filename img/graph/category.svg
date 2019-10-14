@@ -17,4 +17,5 @@
   <path class="line enter" d="M85,300 C40,300 100,360 100,325" marker-end="url(#arrowheadRed)"></path>
   <path class="line enter" d="M385,315 C350,350 450,350 420,320" marker-end="url(#arrowheadRed)"></path>
   <path class="line enter" d="M715,300 C760,300 700,360 700,325" marker-end="url(#arrowheadRed)"></path>
+  <text class="text enter" x="330" y="120">(n times)</text>
 </svg>

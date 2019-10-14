@@ -20,9 +20,10 @@
   <path class="line" d="M210,110 Q300,200 300,275" marker-end="url(#arrowhead)"></path>
   <path class="line" d="M215,100 Q450,100 580,185" marker-end="url(#arrowhead)"></path>
   <path class="line" d="M115,400 Q450,400 583,218" marker-end="url(#arrowhead)"></path>
+  <path class="line" d="M215,100 Q550,50 595,175" marker-end="url(#arrowhead)"></path>
   <path class="line enter" d="M185,100 C140,100 200,40 200,75" marker-end="url(#arrowheadRed)"></path>
   <path class="line enter" d="M85,400 C40,400 100,460 100,425" marker-end="url(#arrowheadRed)"></path>
   <path class="line enter" d="M315,300 C360,300 300,360 300,325" marker-end="url(#arrowheadRed)"></path>
-  <path class="line enter" d="M615,200 C660,200 600,140 600,175" marker-end="url(#arrowheadRed)"></path>
+  <path class="line enter" d="M610,210 C640,240 640,160 618,185" marker-end="url(#arrowheadRed)"></path>
   <path class="line enter" d="M485,500 C440,500 500,440 500,475" marker-end="url(#arrowheadRed)"></path>
 </svg>

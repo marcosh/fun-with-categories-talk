@@ -13,7 +13,7 @@
 }
 
 .line.enter {
-  stroke : red;
+  stroke: red;
 }
 
 .text {
@@ -22,4 +22,12 @@
 
 .text.enter {
   fill: red;
+}
+
+.line.select {
+  stroke: blue;
+}
+
+.line.other {
+  stroke: green;
 }

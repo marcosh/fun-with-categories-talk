@@ -1,4 +1,4 @@
-# FUN WITH CATEGORIES
+# 🎉 FUN WITH CATEGORIES 🎉
 
 ---
 
@@ -18,21 +18,21 @@ I tweet, I blog, I contribute to open source
 
 ---
 
-## Statebox
-
-![statebox](img/logo.png)
+![statebox](img/statebox_simpleblack_txt_bottom.png)
 
 [statebox.org](https://statebox.org)
 
 [github.com/statebox](https://github.com/statebox)
 
-[github.com/statebox/idris-ct](https://github.com/statebox/idris-ct)
-
 notes:
 
 I also work
 
-why category theory?
+---
+
+## What is category theory?
+
+notes:
 
 - general setting to speak about composition and computation
 - provides concepts as `Functor`, `Monad`, `Natural Transformation`
@@ -57,12 +57,6 @@ but that is good beacuse:
 
 - no noise
 - general
-
----
-
-![seven sketches in compositionality](img/seven-sketches.jpg)
-
-[Seven Sketches in Compositionality](https://arxiv.org/abs/1803.05316)
 
 ---
 
@@ -145,8 +139,8 @@ we need sofware which speaks CT
 
 ## A Category Theory library
 
-- verified <!-- .element: class="fragment" data-fragment-index="1" -->
-- practically usable <!-- .element: class="fragment" data-fragment-index="2" -->
+- practically usable <!-- .element: class="fragment" data-fragment-index="1" -->
+- verified <!-- .element: class="fragment" data-fragment-index="2" -->
 
 notes:
 
@@ -170,9 +164,9 @@ with dependent types
 ## Types are first order
 
 ```haskell
-data Vect : (len : Nat) -> (elem : Type) -> Type where
-  Nil  : Vect Z elem
-  (::) : (x : elem) -> (xs : Vect len elem) -> Vect (S len) elem
+data Vect : (l : Nat) -> (e : Type) -> Type where
+  Nil  : Vect Z e
+  (::) : (x : e) -> (xs : Vect l e) -> Vect (S l) e
 ```
 
 ---
@@ -255,6 +249,46 @@ Composition
 
 <!-- .slide: data-transition="fade-in fade-out" -->
 
+Composition
+
+<object data="img/category/composition4.svg" type="image/svg+xml"></object>
+
+---
+
+<!-- .slide: data-transition="fade-in fade-out" -->
+
+Composition
+
+<object data="img/category/composition5.svg" type="image/svg+xml"></object>
+
+---
+
+<!-- .slide: data-transition="fade-in fade-out" -->
+
+Composition
+
+<object data="img/category/composition6.svg" type="image/svg+xml"></object>
+
+---
+
+<!-- .slide: data-transition="fade-in fade-out" -->
+
+Composition
+
+<object data="img/category/composition7.svg" type="image/svg+xml"></object>
+
+---
+
+<!-- .slide: data-transition="fade-in fade-out" -->
+
+Composition
+
+<object data="img/category/composition8.svg" type="image/svg+xml"></object>
+
+---
+
+<!-- .slide: data-transition="fade-in fade-out" -->
+
 Identities
 
 <object data="img/category/identities1.svg" type="image/svg+xml"></object>
@@ -329,7 +363,7 @@ Associativity
 
 Associativity
 
-<object data="img/category/associativity1.svg" type="image/svg+xml"></object>
+<object data="img/category/associativity3.svg" type="image/svg+xml"></object>
 
 ---
 
@@ -337,7 +371,23 @@ Associativity
 
 Associativity
 
-<object data="img/category/associativity3.svg" type="image/svg+xml"></object>
+<object data="img/category/associativity4.svg" type="image/svg+xml"></object>
+
+---
+
+<!-- .slide: data-transition="fade-in fade-out" -->
+
+Associativity
+
+<object data="img/category/associativity5.svg" type="image/svg+xml"></object>
+
+---
+
+<!-- .slide: data-transition="fade-in fade-out" -->
+
+Associativity
+
+<object data="img/category/associativity6.svg" type="image/svg+xml"></object>
 
 ---
 
@@ -419,7 +469,7 @@ Provide initial value
 
 ## Recap
 
-- Make it a category <!-- .element: class="fragment" data-fragment-index="1" -->
+- Categorise it <!-- .element: class="fragment" data-fragment-index="1" -->
 - Add a semantic <!-- .element: class="fragment" data-fragment-index="2" -->
 - 🎉 PROFIT 🎉 <!-- .element: class="fragment" data-fragment-index="3" -->
 
