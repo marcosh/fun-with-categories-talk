@@ -161,16 +161,6 @@ with dependent types
 
 ---
 
-## Types are first order
-
-```haskell
-data Vect : (l : Nat) -> (e : Type) -> Type where
-  Nil  : Vect Z e
-  (::) : (x : e) -> (xs : Vect l e) -> Vect (S l) e
-```
-
----
-
 ## Types allows us to encode proofs
 
 ```haskell
@@ -479,14 +469,20 @@ Provide initial value
 
 ---
 
-## References
+## Slides
+
+[github.com/marcosh/fun-with-categories-talk](https://github.com/marcosh/fun-with-categories-talk)
+
+---
+
+## Resources
 
 [github.com/statebox/idris-ct](https://github.com/statebox/idris-ct)
 
-[statebox.org](https://statebox.org)
+[@statebox](https://twitter.com/statebox)
 
 [github.com/statebox/awesome-applied-category-theory](https://github.com/statebox/awesome-applied-category-theory)
 
-[twitter.com/marcoshuttle](https://twitter.com/marcoshuttle)
+[ACT Telegram channel](https://t.me/appliedcategorytheory)
 
-[medium.com/@marcosh](https://medium.com/@marcosh)
+[Statebox Telegram channel](https://t.me/stateboxorg)
