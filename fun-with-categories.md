@@ -41,7 +41,7 @@ notes:
 
 > Category Theory is indeed general abstract nonsense
 > and that it is precisely because of that that it is
-> so important both mathematically and philosophically
+> so important both mathematically and philosophically.
 
 from ["What is Category Theory?"](https://zenodo.org/record/584073/files/MarquisPoli2006.pdf)
 
@@ -53,7 +53,7 @@ what is category theory?
 
 even among mathematicians sometimes described as abstract nonsense
 
-but that is good beacuse:
+but that is good because:
 
 - no noise
 - general
@@ -84,7 +84,7 @@ game theory
 
 ---
 
-![linguistincs](img/linguistics.png)
+![linguistics](img/linguistics.png)
 
 notes:
 
