@@ -41,7 +41,7 @@ notes:
 
 > Category Theory is indeed general abstract nonsense
 > and that it is precisely because of that that it is
-> so important both mathematically and philosophically
+> so important both mathematically and philosophically.
 
 from ["What is Category Theory?"](https://zenodo.org/record/584073/files/MarquisPoli2006.pdf)
 
@@ -53,7 +53,7 @@ what is category theory?
 
 even among mathematicians sometimes described as abstract nonsense
 
-but that is good beacuse:
+but that is good because:
 
 - no noise
 - general
@@ -84,7 +84,7 @@ game theory
 
 ---
 
-![linguistincs](img/linguistics.png)
+![linguistics](img/linguistics.png)
 
 notes:
 
@@ -125,7 +125,7 @@ concurrent and distibuted computations
 
 ---
 
-[github.com/statebox/awesome-applied-category-theory](https://github.com/statebox/awesome-applied-category-theory)
+[github.com/statebox/awesome-applied-ct](https://github.com/statebox/awesome-applied-ct)
 
 notes:
 
@@ -144,9 +144,9 @@ we need sofware which speaks CT
 
 notes:
 
-we need to have the same safety which math provides (even more, bacause proof checked)
+we need to have the same safety which math provides (even more, because proof checked)
 
-still, not too abstract so that it becomes unpractical
+still, not too abstract so that it becomes inpractical
 
 ---
 
@@ -161,7 +161,7 @@ with dependent types
 
 ---
 
-## Types allows us to encode proofs
+## Types allow us to encode proofs
 
 ```haskell
 data LTE  : (n, m : Nat) -> Type where
@@ -479,10 +479,10 @@ Provide initial value
 
 [github.com/statebox/idris-ct](https://github.com/statebox/idris-ct)
 
-[@statebox](https://twitter.com/statebox)
+[statebox.org](https://statebox.org)
 
-[github.com/statebox/awesome-applied-category-theory](https://github.com/statebox/awesome-applied-category-theory)
+[github.com/statebox/awesome-applied-ct](https://github.com/statebox/awesome-applied-ct)
 
-[ACT Telegram channel](https://t.me/appliedcategorytheory)
+[t.me/appliedcategorytheory](https://t.me/appliedcategorytheory)
 
-[Statebox Telegram channel](https://t.me/stateboxorg)
+[t.me/stateboxorg](https://t.me/stateboxorg)
