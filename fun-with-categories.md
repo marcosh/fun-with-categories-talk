@@ -1,32 +1,36 @@
-# 🎉 FUN WITH CATEGORIES 🎉
 
----
+## 🎉 FUN WITH CATEGORIES 🎉
 
-## Marco Perone
-
-[twitter.com/marcoshuttle](https://twitter.com/marcoshuttle)
-
-[github.com/marcosh](https://github.com/marcosh)
-
-[marcosh.github.com](https://marcosh.github.com)
-
-[medium.com/@marcosh](https://medium.com/@marcosh)
-
-notes:
-
-I tweet, I blog, I contribute to open source
-
----
+#### Marco Perone
 
 ![statebox](img/statebox_simpleblack_txt_bottom.png)
 
 [statebox.org](https://statebox.org)
 
-[github.com/statebox](https://github.com/statebox)
+<!-- TODO add better layout for the title page -->
+
+---
+
+## About Marco
+
+- PhD Mathematics, *University of Padua*
+- Functional Programmer at Statebox
 
 notes:
 
-I also work
+I tweet, I blog, I contribute to open source, you can find more info about me on the statebox website
+
+---
+
+## About Statebox
+
+#### » Applying Category Theory «
+
+**Categorical-** *Software, Hardware, Distributed Systems, Cryptography, ...*
+
+notes:
+
+Statebox is building a suite categorical programming tools
 
 ---
 
@@ -125,7 +129,7 @@ concurrent and distibuted computations
 
 ---
 
-[github.com/statebox/awesome-applied-category-theory](https://github.com/statebox/awesome-applied-category-theory)
+[github.com/statebox/awesome-applied-ct](https://github.com/statebox/awesome-applied-category-theory)
 
 notes:
 
@@ -144,9 +148,9 @@ we need sofware which speaks CT
 
 notes:
 
-we need to have the same safety which math provides (even more, bacause proof checked)
+we need to have the same safety which math provides (even more, because proof checked)
 
-still, not too abstract so that it becomes unpractical
+still, not too abstract so that it becomes impractical
 
 ---
 
@@ -161,7 +165,7 @@ with dependent types
 
 ---
 
-## Types allows us to encode proofs
+## Types allow us to encode proofs
 
 ```haskell
 data LTE  : (n, m : Nat) -> Type where
@@ -465,24 +469,29 @@ Provide initial value
 
 ---
 
-![solong](img/solong.jpg)
+![categorify all the things!](img/categorify-all-the-things.png)
+
+notes:
+
+our mission
 
 ---
 
-## Slides
+## Thank you!
 
+Follow: [@marcoshuttle](https://twitter.com/marcoshuttle) & [@statebox](https://twitter.com/statebox)
+
+##### To learn more, check out:
+
+- [statebox.org](https://statebox.org)
+- [github.com/statebox/idris-ct](https://github.com/statebox/idris-ct),
+- [github.com/statebox/awesome-applied-ct](https://github.com/statebox/awesome-applied-ct)
+- [t.me/appliedcategorytheory](https://t.me/appliedcategorytheory) (telegram)
+- [t.me/stateboxorg](https://t.me/stateboxorg) (telegram)
+
+<!--
+[github.com/marcosh](https://github.com/marcosh)
+[marcosh.github.com](https://marcosh.github.com)
+[medium.com/@marcosh](https://medium.com/@marcosh)
 [github.com/marcosh/fun-with-categories-talk](https://github.com/marcosh/fun-with-categories-talk)
-
----
-
-## Resources
-
-[github.com/statebox/idris-ct](https://github.com/statebox/idris-ct)
-
-[@statebox](https://twitter.com/statebox)
-
-[github.com/statebox/awesome-applied-category-theory](https://github.com/statebox/awesome-applied-category-theory)
-
-[ACT Telegram channel](https://t.me/appliedcategorytheory)
-
-[Statebox Telegram channel](https://t.me/stateboxorg)
+-->
