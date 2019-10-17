@@ -3,9 +3,7 @@
 
 #### Marco Perone
 
-![statebox](img/statebox_simpleblack_txt_bottom.png)
-
-[statebox.org](https://statebox.org)
+[`statebox.org`](https://statebox.org)
 
 <!-- TODO add better layout for the title page -->
 
